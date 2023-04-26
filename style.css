@@ -1,0 +1,19 @@
+body {
+    margin: 50px;
+    background-color: rgb(113, 204, 237);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button {
+    padding: 10px;
+    background-color: rgb(177, 221, 249);
+}
+
+.myButton {
+    padding: 5px;
+    margin: 20px;
+}
+
+p {
+    font-size: xx-large;
+}
