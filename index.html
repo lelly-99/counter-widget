@@ -10,16 +10,16 @@
 <body>
     <h1>Counter Widget</h1>
     <div>
-        <h2>Counter</h2>
         <p class="counter">0</p>
-        <label for="exampleEmailInput">Multiply</label>
-        <input type="number" name="" value="" placeholder="enter number' " class="multiplyNumber">
+        <div class="buttons">
+            <button class="myButton increaseButton" type="button" name="button">Increment</button>
+            <button class="myButton decreaseButton" type="button" name="button">Decrement</button>
+        </div>
+        <h5>Enter number to multiply counter</h5>
+        <input type="number" name="" value="" placeholder="enter number" class="multiplyNumber">
         <button class="myButton multiplyButton" type="button" name="button">Multiply</button>
+        <h5>Cclick button to reset</h5>
         <button class="myButton resetButton" type="button" name="button">Reset</button>
-    </div>
-    <div class="buttons">
-        <button class="myButton increaseButton" type="button" name="button">Increase</button>
-        <button class="myButton decreaseButton" type="button" name="button">Decrease</button>
     </div>
     <script src="counterWidget.js" charset="UTF-8"></script>
 </body>

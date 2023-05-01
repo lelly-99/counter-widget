@@ -31,9 +31,8 @@ multiplyButton.addEventListener("click", function(){
 });
 //event listener to reset to zero
 resetButton.addEventListener("click", () => {
-    inputNumber = 0;
-    multiplyNumber.value = "";
     counter.innerHTML = 0;
+    multiplyNumber.value = "";
   });
 
 
